@@ -49,8 +49,9 @@ Namrata Ingale/
 ├── index.html                        # Semantic HTML5 structure
 ├── style.css                         # Modern SaaS light-blue theme styles
 ├── script.js                         # Vanilla JS: typing effect, mobile nav, lightbox
-├── server.js                         # Lightweight local HTTP development server
+├── dev-server.js                     # Lightweight local HTTP development server
 ├── package.json                      # Project metadata and run scripts
+├── vercel.json                       # Vercel deployment configuration
 └── README.md                         # Documentation & deployment guide
 ```
 
@@ -66,7 +67,7 @@ npm run dev
 ```
 or
 ```bash
-node server.js
+node dev-server.js
 ```
 
 Then visit in your web browser:

@@ -2,10 +2,9 @@
   "name": "namrata-ingale-portfolio",
   "version": "1.0.0",
   "description": "Personal developer portfolio website for Namrata Ingale",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node dev-server.js",
+    "build": "echo Static build complete"
   },
   "keywords": [
     "portfolio",
